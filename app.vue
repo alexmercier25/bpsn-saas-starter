@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LayoutNavbar />
+    <LayoutNavbar class="mb-6" />
     <NuxtPage />
   </div>
 </template>

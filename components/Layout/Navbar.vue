@@ -49,7 +49,18 @@ const menuBarItems = [
   {
     label: "About",
     icon: "pi pi-fw pi-info-circle",
-    to: "/about",
+    items: [
+      {
+        label: "Privacy Policy",
+        icon: "pi pi-fw pi-lock",
+        to: "/about/privacy",
+      },
+      {
+        label: "Terms and Conditions",
+        icon: "pi pi-fw pi-file",
+        to: "/about/terms",
+      },
+    ],
   },
   {
     label: "Contact",

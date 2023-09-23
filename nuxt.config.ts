@@ -22,4 +22,10 @@ export default defineNuxtConfig({
   imports: {
     dirs: ["store"],
   },
+  appConfig: {
+    productName: "Nuxt Pinia PrimeVue",
+    supportEmail: "support@example.com",
+    termsLastUpdated: "2023-09-23",
+    jurisdiction: "US",
+  },
 });
