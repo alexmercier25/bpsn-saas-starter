@@ -1,63 +1,91 @@
-# Nuxt 3 Minimal Starter
+# SAAS Template with Nuxt 3, Bun, Supabase, Stripe, Pinia, and PrimeVue (Tailwind)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+This project is a robust SAAS template designed to kickstart your software as a service application. It utilizes Nuxt 3 for the frontend, Bun as the Node.js replacement and package manager, Supabase for backend and database solutions, Stripe for payment handling, Pinia for state management, and PrimeVue for UI components. Tailwind CSS is used for styling.
 
-Make sure to install the dependencies:
+---
 
-```bash
-# npm
-npm install
+## Table of Contents
 
-# pnpm
-pnpm install
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contribution](#contribution)
+- [License](#license)
 
-# yarn
-yarn install
-```
+---
 
-## Development Server
+## Installation
 
-Start the development server on `http://localhost:3000`:
+### Prerequisites
 
-```bash
-# npm
-npm run dev
+- Bun installed
+- Stripe API keys
+- Supabase project setup
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
+### Clone the Repository
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+git clone https://github.com/yourusername/SAAS-Template.git
 ```
 
-Locally preview production build:
+### Install Dependencies
+
+Navigate into the project directory and run:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
+bun install
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Environment Variables
+
+Copy the `.env.example` file and rename it to `.env`. Then populate the necessary API keys and URLs.
+
+```bash
+cp .env.example .env
+```
+
+### Start the Development Server
+
+To start the development server, run:
+
+```bash
+bun dev
+```
+
+---
+
+## Usage
+
+Once the server is up, head to `http://localhost:3000/` to see the application in action.
+
+To utilize Stripe's capabilities, make sure your Stripe API keys are filled in the `.env` file.
+
+---
+
+## Features
+
+- **Nuxt 3**: Next-gen Vue.js framework for building versatile web applications.
+- **Bun**: A Node.js replacement and package manager to speed up your workflow.
+- **Supabase**: Open-source Firebase alternative for backend and database solutions.
+- **Stripe**: A comprehensive toolkit for internet commerce.
+- **Pinia**: State management pattern and library.
+- **PrimeVue**: Feature-rich set of UI components for Vue.js.
+- **Tailwind CSS**: A utility-first CSS framework.
+
+---
+
+## Contribution
+
+Pull requests are welcome. For major changes, open an issue first to discuss your ideas.
+
+---
+
+## License
+
+MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+Made with :heart: by Alexandre Mercier
