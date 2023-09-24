@@ -8,11 +8,68 @@ This project is a robust SAAS template designed to kickstart your software as a 
 
 ## Table of Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
+- [Frameworks and Libraries](#frameworks-and-libraries)
 - [Contribution](#contribution)
 - [License](#license)
+
+---
+
+## Features
+
+- [ ] **Authentication**
+  - [ ] Email & Password Sign Up
+  - [ ] OAuth Sign Up (Google, GitHub, etc.)
+  - [ ] Two-Factor Authentication
+  - [ ] Password Reset
+  
+- [ ] **User Management**
+  - [ ] Profile Editing
+  - [ ] Role-based Access Control
+  - [ ] Activity Tracking
+  
+- [ ] **Billing & Payments**
+  - [ ] Stripe Integration
+  - [ ] Subscription Management
+  - [ ] Invoices
+  
+- [ ] **API**
+  - [ ] RESTful API Endpoints
+  - [ ] GraphQL Support
+  - [ ] API Rate Limiting
+  
+- [ ] **Frontend**
+  - [ ] Responsive Design
+  - [ ] Dark Mode
+  - [ ] Localization and Internationalization
+  
+- [ ] **State Management**
+  - [ ] Global State Management (Pinia)
+  - [ ] Local Storage
+  
+- [ ] **Data Storage**
+  - [ ] File Uploads
+  - [ ] Database CRUD Operations (Supabase)
+  
+- [ ] **Security**
+  - [ ] Data Encryption
+  - [ ] XSS Protection
+  - [ ] CSRF Protection
+  
+- [ ] **Real-time Features**
+  - [ ] Websockets
+  - [ ] Notifications
+  
+- [ ] **Customization & Theming**
+  - [ ] Pre-built UI Components (PrimeVue)
+  - [ ] Custom Themes
+
+- [ ] **Documentation**
+  - [ ] API Documentation
+  - [ ] User Guides
+  - [ ] Developer Guides
 
 ---
 
@@ -22,7 +79,7 @@ This project is a robust SAAS template designed to kickstart your software as a 
 
 - Bun installed
 - Stripe API keys
-- Supabase project setup
+- [Supabase project setup](https://supabase.com/docs/guides/cli/local-development)
 
 ### Clone the Repository
 
@@ -64,7 +121,7 @@ To utilize Stripe's capabilities, make sure your Stripe API keys are filled in t
 
 ---
 
-## Features
+## Frameworks and Libraries
 
 - **Nuxt 3**: Next-gen Vue.js framework for building versatile web applications.
 - **Bun**: A Node.js replacement and package manager to speed up your workflow.
