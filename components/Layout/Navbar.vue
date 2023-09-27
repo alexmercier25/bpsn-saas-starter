@@ -6,13 +6,13 @@
       </NuxtLink>
     </template>
     <template #end>
-      <Button
-        v-if="!auth.currentUser"
-        label="Login"
-        icon="pi pi-sign-in"
-        class="p-button-rounded p-button-secondary"
-        @click="auth.login"
-      />
+      <NuxtLink v-if="!auth.currentUser" to="/login">
+        <Button
+          label="Login"
+          icon="pi pi-sign-in"
+          class="p-button-rounded p-button-secondary"
+        />
+      </NuxtLink>
       <div v-else>
         <Avatar
           class="cursor-pointer select-none"

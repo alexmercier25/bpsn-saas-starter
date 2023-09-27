@@ -13,10 +13,15 @@ const MyDesignSystem = usePassThrough(
     menubar: {
       class: "rounded-none",
     },
+    inputtext: {
+      root: {
+        class: "w-full",
+      },
+    },
   },
   {
     mergeSections: true,
-    mergeProps: false,
+    mergeProps: true,
   }
 );
 

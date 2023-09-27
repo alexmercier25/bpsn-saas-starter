@@ -10,7 +10,16 @@ export default {
     "./node_modules/primevue/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        surface: {
+          ground: {
+            DEFAULT: "#040d19",
+            text: "#ffffffcc",
+          },
+        },
+      },
+    },
   },
   plugins: [],
 };

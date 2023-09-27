@@ -4,12 +4,18 @@ export const useAuth = defineStore("auth", () => {
     currentUser.value = null;
     localStorage.removeItem("currentUser");
   }
-  function login() {
-    console.log("login");
-    currentUser.value = { name: "John Doe" };
+  async function login(email: string, password: string) {
+    await useFetch("/api/auth/login", {
+      method: "POST",
+      body: JSON.stringify({
+        email: email,
+        password: password,
+      }),
+    });
+    // currentUser.value = { name: "John Doe" };
 
     // persist the user
-    localStorage.setItem("currentUser", JSON.stringify(currentUser.value));
+    // localStorage.setItem("currentUser", JSON.stringify(currentUser.value));
   }
 
   return { currentUser, login, logout };

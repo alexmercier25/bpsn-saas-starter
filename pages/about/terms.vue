@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 pt-8">
     <h1 class="text-3xl font-bold mb-4">Terms and Conditions</h1>
 
     <p class="mb-2 text-lg">Last Updated: {{ termsLastUpdated }}</p>
